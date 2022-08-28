@@ -1,0 +1,20 @@
+uuid: 2438c0e2-154e-4672-b803-f2a61c721301
+langcode: en
+status: true
+dependencies:
+  theme:
+    - testproject
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: testproject_page_title
+theme: testproject
+region: sidebar_first
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
